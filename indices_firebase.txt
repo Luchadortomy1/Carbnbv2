@@ -1,0 +1,18 @@
+## 🔥 Crear Índices de Firebase
+
+**Enlaces para crear índices (copia cada uno en tu navegador):**
+
+1. Vehículos disponibles:
+https://console.firebase.google.com/v1/r/project/carbnb-d1422/firestore/indexes?create_composite=Ck1wcm9qZWN0cy9jYXJibmItZDE0MjIvZGF0YWJhc2VzLyhkZWZhdWx0KS9jb2xsZWN0aW9uR3JvdXBzL3ZlaGljbGVzL2luZGV4ZXMvXxABGg0KCWF2YWlsYWJsZRABGg0KCWNyZWF0ZWRBdBACGgwKCF9fbmFtZV9fEAI
+
+2. Vehículos por propietario:
+https://console.firebase.google.com/v1/r/project/carbnb-d1422/firestore/indexes?create_composite=Ck1wcm9qZWN0cy9jYXJibmItZDE0MjIvZGF0YWJhc2VzLyhkZWZhdWx0KS9jb2xsZWN0aW9uR3JvdXBzL3ZlaGljbGVzL2luZGV4ZXMvXxABGgsKB293bmVySWQQARoNCgljcmVhdGVkQXQQAhoMCghfX25hbWVfXxAC
+
+3. Chats:  
+https://console.firebase.google.com/v1/r/project/carbnb-d1422/firestore/indexes?create_composite=Ckpwcm9qZWN0cy9jYXJibmItZDE0MjIvZGF0YWJhc2VzLyhkZWZhdWx0KS9jb2xsZWN0aW9uR3JvdXBzL2NoYXRzL2luZGV4ZXMvXxABGhAKDHBhcnRpY2lwYW50cxgBGg0KCXVwZGF0ZWRBdBACGgwKCF9fbmFtZV9fEAI
+
+**Pasos:**
+1. Abre cada enlace 
+2. Haz clic en "Crear índice"
+3. Espera a que se creen (1-5 min cada uno)
+4. Reinicia la app
