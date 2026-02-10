@@ -1,10 +1,10 @@
 import { Alert } from 'react-native';
 
 // Configuración de Google Pay
-const GOOGLE_PAY_MERCHANT_ID = 'BCR2DN5TR3RPX4IZ'; // Tu merchant ID de Google Pay
-const GOOGLE_PAY_ENVIRONMENT = 'TEST'; // Cambiar a 'PRODUCTION' para producción
+const GOOGLE_PAY_MERCHANT_ID = process.env.EXPO_PUBLIC_GOOGLE_PAY_MERCHANT_ID; // Tu merchant ID de Google Pay
+const GOOGLE_PAY_ENVIRONMENT = process.env.EXPO_PUBLIC_GOOGLE_PAY_ENVIRONMENT || 'TEST'; // Cambiar a 'PRODUCTION' para producción
 const GATEWAY_NAME = 'stripe'; // Gateway de pago
-const STRIPE_PUBLISHABLE_KEY = 'pk_test_51P3NfOFew8z1dTUgzofAw7EmfoMJWjrm5FFmE3En0hJ3rQoxQ40oO6TKFp5mqFGaKGCTHTY6DTTMeKF4wo4VexQc00gyF7RsbX';
+const STRIPE_PUBLISHABLE_KEY = process.env.EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY;
 
 export interface GooglePayRequest {
   amount: number;

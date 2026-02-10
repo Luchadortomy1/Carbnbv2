@@ -3,7 +3,7 @@ import { getFirestore, collection, query, orderBy, where, limit, getDocs } from 
 
 // Configuración de Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyDiHd0jJsjatM35VD2VPoqjSO4VrwmTCFU",
+  apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
   authDomain: "carbnb-d1422.firebaseapp.com",
   projectId: "carbnb-d1422",
   storageBucket: "carbnb-d1422.firebasestorage.app",

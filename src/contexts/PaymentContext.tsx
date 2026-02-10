@@ -5,7 +5,7 @@ import { Alert } from 'react-native';
 
 // Clave pública de Stripe (debes obtenerla de tu cuenta de Stripe)
 // NOTA: En producción, debes usar variables de entorno
-const STRIPE_PUBLISHABLE_KEY = 'pk_test_51P3NfOFew8z1dTUgzofAw7EmfoMJWjrm5FFmE3En0hJ3rQoxQ40oO6TKFp5mqFGaKGCTHTY6DTTMeKF4wo4VexQc00gyF7RsbX'; // Reemplaza con tu clave real
+const STRIPE_PUBLISHABLE_KEY = process.env.EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY; // Cargada desde variables de entorno
 
 export type PaymentMethod = 'stripe' | 'googlePay';
 
